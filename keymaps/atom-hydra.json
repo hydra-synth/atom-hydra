@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "atom-hydra:toggle",
+    "ctrl-enter": "atom-hydra:evalLine",
+    "ctrl-alt-enter": "atom-hydra:evalBlock"
+  }
+}

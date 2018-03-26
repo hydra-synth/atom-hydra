@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-hydra",
+        "command": "atom-hydra:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-hydra",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-hydra:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
