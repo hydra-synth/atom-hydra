@@ -13,7 +13,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "hydra-synth": "^1.0.1",
+    "dgram": "^1.0.1",
+    "hydra-synth": "^1.0.5",
+    "osc-min": "^1.1.1",
     "rtc-patch-bay": "^1.0.0"
   }
 }
