@@ -13,6 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-message-panel": "^1.3.0",
     "dgram": "^1.0.1",
     "hydra-synth": "^1.0.5",
     "meyda": "^4.1.3",

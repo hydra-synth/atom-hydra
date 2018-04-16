@@ -15,7 +15,30 @@ msg.on("sn", () => {
 })
 //
 // use variables in hydra
-osc(10, 0.2,0.3)
+osc(100, 0.2,0.3)
   .rotate(() => r1)
   .modulate(osc(100).rotate(() => r2))
   .out()
+
+
+
+
+a.hide()
+
+osc().out()
+osc(1000).out()
+
+
+s0.initScreen(0)
+src(s0)
+.modulateHue(o0, 10)
+//.pixelate(1000, 10)
+.scrollX(({time}) => (Math.sin(time* 0.4) * 0.08), 0.00)
+.scale(1.1)
+.rotate(0.0001, 0.00001)
+.saturate(1.2)
+.hue(0.01)
+//.modulate(osc(1000), 0.01)
+.out()
+
+osc().out()
