@@ -4,6 +4,14 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
+&.eval-flash {
+  // color: @text-color-selected;
+  // background-color: @background-color-selected;
+//  color: #000;
+  background: rgba(255, 255, 255, 0.5) !important;
+ //background: #0f0 !important;
+}
+
 .hydra,
 .hydra canvas {
     position: fixed;
@@ -25,14 +33,15 @@ body.hydra-enabled {
         :not(.cursor):not(autocomplete-suggestion-list):not(atom-overlay):not(span):not(.region),
     atom-workspace *:before,
     atom-workspace *:after {
-        background: transparent !important;
+        background: transparent; /*!important;*/
         border: none !important;
         text-shadow: 0 1px 1px black;
         box-shadow: none !important;
     }
     .line > span {
-        background: rgba(0, 0, 0, 0.7) !important;
+        background: rgba(0, 0, 0, 0.9);
     }
+
     .cursor {
         width: 0 !important;
         box-shadow: 0 0 3px #0ff !important;
@@ -52,12 +61,15 @@ body.hydra-enabled {
     }
 }
 
+.evalFlash > span {
+    background-color: rgba(255, 255, 255, 0.9);
+}
 //styles from tidal-atom
 
 atom-text-editor.editor .line {
   transition:  background-color .8s ease-out;
   -webkit-transition: background-color .8s ease-out;
-
+  background-color: rgba(0, 0, 0, 0.6);
   // &.line-green {
   //   background-color: @green-color;
   // }
@@ -75,10 +87,7 @@ atom-text-editor.editor .line {
     background-color: @background-color-highlight;
   }
 
-  &.eval-flash {
-    color: @text-color-selected;
-    background-color: @background-color-selected;
-  }
+
 
   &.eval-success {
     color: @text-color-success;
@@ -90,6 +99,11 @@ atom-text-editor.editor .line {
     color: @text-color-error;
     background-color: @background-color-error;
   }
+}
+
+.elegante {
+  background-color: #f00;
+  font-family: fantasy;
 }
 
 atom-panel div.tidalcycles.console {
