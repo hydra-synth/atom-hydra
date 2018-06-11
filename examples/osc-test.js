@@ -4,15 +4,7 @@
 r1 = 1
 r2 = 0.1
 //
-// change value of variables based on messages received from Tidal
-msg.on("bd", () => {
-  r1 = r1 + 2
-})
-//
-msg.on("sn", () => {
-  r2 = Math.random()*4
-//  r2 = 4
-})
+
 //
 // use variables in hydra
 osc(100, 0.2,0.3)
@@ -20,9 +12,25 @@ osc(100, 0.2,0.3)
   .modulate(osc(100).rotate(() => r2))
   .out()
 
+gradient().color(0, 0, 0).out()
+
 // update port to listen to osc messages
 msg.setPort(51000)
 
+freq = 10
+
+msg.on('/test', (args) => {
+  console.log('test', args)
+  freq = args[0]
+})
+
+msg.on('*', (args) => {
+  console.log("ALLL")
+})
+
+
+
+osc(() => freq).out()
 
 a.hide()
 a.show()

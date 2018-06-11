@@ -9,7 +9,7 @@ From terminal:
 
 ### Running Atom-Hydra
 1. restart atom
-2. packages > atom-hydra > toggle atom-hydra
+2. packages > atom-hydra > toggle
 3. create a file ending with .js in atom
 4. type `osc().out()`
 5. ctrl-enter to run block of code
