@@ -1,11 +1,5 @@
-### EXPERIMENTAL PACKAGE FOR RUNNING HYDRA IN ATOM
-
-#### Installing package in atom
-From terminal:
-1.  Download the atom-hydra repo: `git clone https://github.com/ojack/atom-hydra.git`
-2. enter package directory: `cd atom-hydra`
-3. add as package to atom: `apm link .`
-4. install dependencies: `apm install`
+### Experimental package for running hydra in atom.
+Also includes p5.js, support for OSC channels, and for live coding with javascript in general
 
 ### Running Atom-Hydra
 1. restart atom

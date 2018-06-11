@@ -8,10 +8,11 @@ r2 = 0.1
 //
 // use variables in hydra
 osc(100, 0.2,0.3)
-  .rotate(() => r1)
-  .modulate(osc(100).rotate(() => r2))
+  .rotate()
+  .modulate(osc(100).rotate())
   .out()
 
+osc().out()
 gradient().color(0, 0, 0).out()
 
 // update port to listen to osc messages
@@ -19,16 +20,21 @@ msg.setPort(51000)
 
 freq = 10
 
+hi = log
 msg.on('/test', (args) => {
-  console.log('test', args)
+//  console.log(hi)
+  hi(args)
   freq = args[0]
 })
 
+hi("hello")
+
+console.log();
 msg.on('*', (args) => {
   console.log("ALLL")
 })
 
-
+log("hello")
 
 osc(() => freq).out()
 
