@@ -1,7 +1,7 @@
 {
   "name": "atom-hydra",
   "main": "./lib/atom-hydra",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Live coding hydra from within atom",
   "keywords": [],
   "activationCommands": {
