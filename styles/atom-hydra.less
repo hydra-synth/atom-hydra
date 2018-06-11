@@ -4,7 +4,15 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-&.eval-flash {
+&.hydra-flash {
+  // color: @text-color-selected;
+  // background-color: @background-color-selected;
+//  color: #000;
+  background: rgba(255, 255, 255, 0.5) !important;
+ //background: #0f0 !important;
+}
+
+&.evalFlash {
   // color: @text-color-selected;
   // background-color: @background-color-selected;
 //  color: #000;
@@ -37,9 +45,9 @@ body.hydra-enabled {
         border: none !important;
         text-shadow: 0 1px 1px black;
         box-shadow: none !important;
-    }
+     }
     .line > span {
-        background: rgba(0, 0, 0, 0.9);
+      //  background: rgba(0, 0, 0, 0.5);
     }
 
     .cursor {
@@ -59,9 +67,9 @@ body.hydra-enabled {
         background: #0005 !important;
         border-left: 8px #8888 solid !important;
     }
-}
+ }
 
-.evalFlash > span {
+/*.evalFlash > span {
     background-color: rgba(255, 255, 255, 0.9);
 }
 //styles from tidal-atom
@@ -99,13 +107,13 @@ atom-text-editor.editor .line {
     color: @text-color-error;
     background-color: @background-color-error;
   }
-}
+}*/
 
 .elegante {
   background-color: #f00;
   font-family: fantasy;
 }
-
+/*
 atom-panel div.tidalcycles.console {
   height: 100px;
   padding: 3px 10px;
@@ -117,3 +125,4 @@ atom-panel div.tidalcycles.console {
     color: @text-color-error;
   }
 }
+*/

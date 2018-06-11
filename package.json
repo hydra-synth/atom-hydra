@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "atom-hydra:toggle"
   },
-  "repository": "https://github.com/atom/atom-hydra",
+  "repository": "https://github.com/ojack/atom-hydra",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

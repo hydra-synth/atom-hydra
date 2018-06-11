@@ -20,15 +20,17 @@ osc(100, 0.2,0.3)
   .modulate(osc(100).rotate(() => r2))
   .out()
 
-
+// update port to listen to osc messages
+msg.setPort(51000)
 
 
 a.hide()
+a.show()
+fadeOut(0, 0.01)
+osc(f0(1, 100)).out()
+osc(1, 1, 3).out()
 
-osc().out()
-osc(1000).out()
-
-
+// wild feedback
 s0.initScreen(0)
 src(s0)
 .modulateHue(o0, 10)
@@ -42,3 +44,16 @@ src(s0)
 .out()
 
 osc().out()
+
+
+
+
+
+
+
+
+
+
+
+
+osc(10, 1, -1).out()
