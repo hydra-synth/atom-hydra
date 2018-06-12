@@ -15,7 +15,7 @@
   "dependencies": {
     "atom-message-panel": "^1.3.0",
     "dgram": "^1.0.1",
-    "hydra-synth": "^1.0.10",
+    "hydra-synth": "^1.0.11",
     "is-image": "^2.0.0",
     "meyda": "^4.1.3",
     "osc-min": "^1.1.1",
