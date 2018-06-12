@@ -1,5 +1,10 @@
 ### Experimental package for running hydra in atom.
-Also includes p5.js, support for OSC channels, and for live coding with javascript in general
+Also includes p5.js, support for OSC channels, and for live coding with javascript in general.
+
+For example usage, see: https://github.com/ojack/hydra-examples
+
+For browser version, see: https://github.com/ojack/hydra
+
 
 ### Running Atom-Hydra
 1. restart atom

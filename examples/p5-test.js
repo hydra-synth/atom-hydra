@@ -1,7 +1,7 @@
 
 
 // initialize p5 canvas
-p1 = new P5() // {width: window.ineerWidth, height:window.innerHeight, mode: 'P2D'}
+p1 = new P5() // {width: window.innerWidth, height:window.innerHeight, mode: 'P2D'}
 
 
 img = p1.loadImage(atom.project.getPaths()[0]+'/examples/A-gray-kitten-meowing.jpg')
