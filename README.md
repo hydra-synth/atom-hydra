@@ -13,3 +13,7 @@ For browser version, see: https://github.com/ojack/hydra
 4. type `osc().out()`
 5. ctrl-enter to run block of code
 6. shift-enter to run a line of code
+
+Code for editor styling and osc channels lovingly derived from some other wonderful live coding packages:
+* https://atom.io/packages/veda
+* https://github.com/tidalcycles/atom-tidalcycles
