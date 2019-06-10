@@ -1,6 +1,8 @@
 {
   "atom-workspace atom-text-editor[data-grammar~='js']": {
-    "ctrl-alt-o": "atom-hydra:toggle",
+    "ctrl-alt-o": "atom-hydra:toggle"
+  },
+  ".hydra-enabled atom-workspace atom-text-editor[data-grammar~='js']": {
     "shift-enter": "atom-hydra:evalLine",
     "ctrl-enter": "atom-hydra:evalBlock",
     "ctrl-alt-enter": "atom-hydra:evalBlock"
