@@ -1,7 +1,7 @@
 {
   "name": "atom-hydra",
   "main": "./lib/atom-hydra",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "description": "Live coding hydra from within atom",
   "keywords": [],
   "activationCommands": {
@@ -15,7 +15,7 @@
   "dependencies": {
     "atom-message-panel": "^1.3.0",
     "dgram": "^1.0.1",
-    "hydra-synth": "^1.0.25",
+    "hydra-synth": "^1.0.27",
     "is-image": "^2.0.0",
     "meyda": "^4.1.3",
     "osc-min": "^1.1.1",
