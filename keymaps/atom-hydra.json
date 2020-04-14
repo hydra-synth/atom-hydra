@@ -3,6 +3,6 @@
     "ctrl-alt-o": "atom-hydra:toggle",
     "shift-enter": "atom-hydra:evalLine",
     "ctrl-enter": "atom-hydra:evalBlock",
-    "ctrl-alt-enter": "atom-hydra:evalBlock"
+    "ctrl-alt-enter": "atom-hydra:evalCode"
   }
 }
