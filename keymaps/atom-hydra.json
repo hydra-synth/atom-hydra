@@ -4,5 +4,9 @@
     "shift-enter": "atom-hydra:evalLine",
     "ctrl-enter": "atom-hydra:evalBlock",
     "ctrl-alt-enter": "atom-hydra:evalCode"
+  },
+
+  "atom-workspace": {
+    "ctrl-shift-h": "atom-hydra:toggleVisibility"
   }
 }
