@@ -13,6 +13,7 @@ For browser version, see: https://github.com/ojack/hydra
 4. type `osc().out()`
 5. ctrl-enter to run block of code
 6. shift-enter to run a line of code
+7. ctrl-h to show and hide code
 
 ### Error: webgl not supported
 Try running atom from the command line as follows:
