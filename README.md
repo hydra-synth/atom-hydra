@@ -14,8 +14,9 @@ It is no longer possible to publish packages to the atom package registry. Inste
 1. Make sure that `apm` (atom package manager) is installed. On linux and windows, it should be automatically installed with atom. On OSX, go to the 'Atom' menu, and click 'Install Shell Commands'. 
 2. Download this repository `git clone https://github.com/hydra-synth/atom-hydra.git`
 3. Enter the atom directory `cd atom-hydra`
-4. Load this package `apm link .`
-5. Restart atom 
+4. Install the dependencies  `npm install`
+5. Load this package `apm link .`
+6. Restart atom 
 
 ## Running atom-hydra
 1. restart atom
