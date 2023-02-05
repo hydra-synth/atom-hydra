@@ -13,8 +13,6 @@ It is no longer possible to publish packages to the atom package registry. Inste
 
 ### On Pulsar
 
-(If you already have `atom-hydra` installed through the atom GUI, uninstall it there before performing these steps.)
-
 1. Make sure that `ppm` (pulsar package manager) is installed. On linux, it should be automatically installed with atom. On OSX, go to the 'Atom' menu, and click 'Install Shell Commands'. On windows, it doesn't work as of now, read further. If you don't want to install it because it'd name collide with perl's `ppm`, replace the `ppm` command in the following actions with `pulsar -p`.
 2. Download this repository `git clone https://github.com/hydra-synth/atom-hydra.git`
 3. Enter the atom directory `cd atom-hydra`
