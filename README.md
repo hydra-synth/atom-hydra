@@ -29,7 +29,7 @@ The pulsar package manager doesn't work on Windows as of now. You can still inst
 1. Make sure that you have `npm` installed.
 2. Download this repository `git clone https://github.com/hydra-synth/atom-hydra.git`
 3. Enter the atom directory `cd atom-hydra`
-4. Install the dependencies `ppm install`
+4. Install the dependencies `npm install`
 5. Copy and paste the `atom-hydra` folder to `C:\Users\yourusername\.pulsar\packages`
 6. Restart pulsar
 
