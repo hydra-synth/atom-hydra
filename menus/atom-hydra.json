@@ -12,7 +12,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-hydra",
+          "label": "Hydra",
           "submenu": [
             {
               "label": "Toggle",
